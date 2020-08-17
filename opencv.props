@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>D:\mdwork\PCL\PCL 1.9.1\3rdParty\OpenNI2\Include;D:\mdwork\PCL\PCL 1.9.1\3rdParty\VTK\include\vtk-8.1;D:\mdwork\PCL\PCL 1.9.1\3rdParty\Qhull\include;D:\mdwork\PCL\PCL 1.9.1\3rdParty\FLANN\include;D:\mdwork\PCL\PCL 1.9.1\3rdParty\Eigen\eigen3;D:\mdwork\PCL\PCL 1.9.1\3rdParty\Boost\include\boost-1_68;D:\mdwork\PCL\PCL 1.9.1\include\pcl-1.9;D:\mdwork\workspace\mdvision\mdvision\lib;D:\mdwork\workspace\mdvision\mdvision\include;D:\mdwork\workspace\mdvision\mdvision\common;D:\mdwork\halcon\include\halconcpp;$(OPENCV)\install\include;$(OPENCV)\install\include\opencv;$(OPENCV)\install\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\mdwork\PCL\PCL 1.9.1\3rdParty\OpenNI2\Lib;D:\mdwork\PCL\PCL 1.9.1\3rdParty\VTK\lib;D:\mdwork\PCL\PCL 1.9.1\3rdParty\Qhull\lib;D:\mdwork\PCL\PCL 1.9.1\3rdParty\FLANN\lib;D:\mdwork\PCL\PCL 1.9.1\lib;D:\mdwork\halcon\lib\x64-win64;$(OPENCV)\install\x86\vc15\lib;D:\mdwork\PCL\PCL 1.9.1\3rdParty\Boost\lib;$(LibraryPath)</LibraryPath>
+    <_PropertySheetDisplayName>opencv</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opencv_world347D.lib;opencv_ts347d.lib;rplidar_driver.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\mdwork\halcon\lib\x64-win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\mdwork\workspace\RplidarSLAM2\sdk\include;D:\mdwork\workspace\RplidarSLAM2\sdk\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_SILENCE_FPOS_SEEKPOS_DEPRECATION_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

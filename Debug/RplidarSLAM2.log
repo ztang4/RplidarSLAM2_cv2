@@ -1,0 +1,18 @@
+﻿  ExtractBBox.cpp
+d:\mdwork\workspace\rplidarslam2\rplidarslam2\cvlocatebbox\extractbbox.cpp(26): warning C4101: “theta”: 未引用的局部变量
+d:\mdwork\workspace\rplidarslam2\rplidarslam2\cvlocatebbox\extractbbox.cpp(25): warning C4101: “y1”: 未引用的局部变量
+d:\mdwork\workspace\rplidarslam2\rplidarslam2\cvlocatebbox\extractbbox.cpp(25): warning C4101: “x1”: 未引用的局部变量
+d:\mdwork\workspace\rplidarslam2\rplidarslam2\cvlocatebbox\extractbbox.cpp(25): warning C4101: “y0”: 未引用的局部变量
+d:\mdwork\workspace\rplidarslam2\rplidarslam2\cvlocatebbox\extractbbox.cpp(25): warning C4101: “x0”: 未引用的局部变量
+d:\mdwork\workspace\rplidarslam2\rplidarslam2\cvlocatebbox\extractbbox.cpp(26): warning C4101: “rho”: 未引用的局部变量
+d:\mdwork\workspace\rplidarslam2\rplidarslam2\cvlocatebbox\extractbbox.cpp(106): warning C4018: “<”: 有符号/无符号不匹配
+d:\mdwork\workspace\rplidarslam2\rplidarslam2\cvlocatebbox\extractbbox.cpp(136): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+  RplidarSLAM2.vcxproj -> D:\mdwork\workspace\RplidarSLAM2\Debug\RplidarSLAM2.exe
