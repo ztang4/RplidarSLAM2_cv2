@@ -30,6 +30,7 @@ void ExtractBBox::drawLidarPoints(IplImage* RadarImage) {
 
 	// todo: rewrite below code
 	// todo: do it 
+	// todo it 2 nd
 
 	/*
 	for (int i = 1; i < scan_data.size(); i++)
